@@ -1,0 +1,26 @@
+ .clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+
+
+
+
+body {
+	
+	background-color:#F5F5F5;
+
+}
+
+div {
+	border: 1px solid rgb(211,211,211);
+}
+

@@ -1,0 +1,81 @@
+
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Crystal || Game</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/css.css"/>
+</head>
+<body>
+	<div class="container">
+	  <div class="row">
+	  	<div class= "col-md-12">
+           <h1> The Crystal Game</h1>
+         <div class="instructions">
+          <p>
+             <h3> Game Instructions </h3>
+             <ul>
+
+             
+             <li>There will be four crystals displayed as buttons on the page</li>
+             <li> There will be four crystals displayed as buttons on the page.</li>
+             <li>The player will be shown a random number at the start of the game</li>
+             <li>When the player clicks on a crystal, it will add a specific amount of points to the player's total score.</li>
+             <li>Your game will hide this amount until the player clicks a crystal.</li>
+             <li>When they do click one, update the player's score counter.</li>
+             <li>The player wins if their total score matches the random number from the beginning of the game.</li>
+             <li>The player loses if their score goes above the random number.</li>
+             <li>The game restarts whenever the player wins or loses.</li>
+              <p>
+                  Note:When the game begins again, the player should see a new random number. Also, all the crystals will have four new hidden values. Of course, the user's score (and score counter) will reset to zero.
+				The app should show the number of games the player wins and loses. To that end, do not refresh the page as a means to restart the game.
+
+              </p>
+			
+              </ul>
+          </p>
+
+          </div>
+          <div>
+           
+          <span><h3> Game Area</h3></span>
+          </div>
+          <div class='row'>
+          <span><h4> Random Number </h4></span>
+          <div class="col-md-7" id='randNum'>
+          
+          </div><br>
+		          <div class="col-lg-5" id='scorBoard'>
+			          <span> Win: </span><br>
+			          <span> Lose: </span><br>
+               
+		           </div>
+              <br>
+              <br>
+              </div>
+          <div class="row">
+          <div class="col-md-12"> 
+          <button id="button-1" class="btn  btn-success" value="1"> <img src=" img/Grapes.png"></button>
+          <button id="button-2" class="btn  btn-success" value="2"><img src=" img/Cherry.png"></button>
+          <button id="button-3" class="btn  btn-success" value="3"><img src=" img/Raspberry.png"></button>
+          <button id="button-4" class="btn  btn-success" value="4"><img src=" img/Strawberry.png"></button>
+         </div>
+          <br>
+          <br>
+           </div>
+          <div class="col-md-12 " id="crystalRand">
+            <div ><span><h4> Your Total Score:</h4> </span> <span id="total"></span></div>
+          <span><h5>Crystals Values display:</h5></span><span id="crystal"></span>
+         
+          </div>
+		           
+                 
+        </div>
+       </div>       
+	  </div>
+    <script src="script/test.js" ></script>
+</body>
+</html>
