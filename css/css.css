@@ -49,3 +49,15 @@ div> span >h3 {
 #crystal{
 	
 }
+@media(max-width:480px){
+  #scoreBoard{
+    float: none;
+    text-align: left;
+    width:auto;
+    border:0;
+    margin:0;
+  }
+#core >.btn{
+	position: static; 
+}
+
