@@ -19,8 +19,7 @@
              <h3> Game Instructions </h3>
              <ul>
 
-             <li> There will be four crystals displayed as buttons on the page.</li>
-             <li>There will be four crystals displayed as buttons on the page.</li>
+             
              <li>There will be four crystals displayed as buttons on the page</li>
              <li> There will be four crystals displayed as buttons on the page.</li>
              <li>The player will be shown a random number at the start of the game</li>
@@ -31,7 +30,7 @@
              <li>The player loses if their score goes above the random number.</li>
              <li>The game restarts whenever the player wins or loses.</li>
               <p>
-                  Note:When the game begins again, the player should see a new random number. Also, all the crystals will have four new hidden values. Of course, the user's score (and score counter) will reset to zero.
+                  <strong>Note:</strong><br>When the game begins again, the player should see a new random number. Also, all the crystals will have four new hidden values. Of course, the user's score (and score counter) will reset to zero.
 				The app should show the number of games the player wins and loses. To that end, do not refresh the page as a means to restart the game.
 
               </p>
@@ -45,13 +44,13 @@
           <span><h3> Game Area</h3></span>
           </div>
           <div class='row'>
-          <span><h4> Random Number </h4></span>
-          <div class="col-md-7" id='randNum'>
+          <span><h4><stron> Random Number</stron> </h4></span>
+          <div class="col-md-7" id='randNum' value='5'>
           
           </div><br>
 		          <div class="col-lg-5" id='scorBoard'>
-			          <span> Win: </span><br>
-			          <span> Lose: </span><br>
+			         <span><h4>Win:</h4></span> <span id='win'></span><br>
+			          <span><h4>Lose:</h4></span><span id='lose'></span><br>
                
 		           </div>
               <br>
@@ -68,7 +67,7 @@
           <br>
            </div>
           <div class="col-md-12 " id="crystalRand">
-            <div id="total"><span><h4> Your Total Score:</h4> </span></div>
+            <div ><span><h4> Your Total Score:</h4> </span> <span id="total"></span></div>
           <span><h5>Crystals Values display:</h5></span><span id="crystal"></span>
          
           </div>
@@ -77,6 +76,6 @@
         </div>
        </div>       
 	  </div>
-    <script src="script/myjS.js" ></script>
+    <script src="script/test.js" ></script>
 </body>
 </html>
